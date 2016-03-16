@@ -15,6 +15,10 @@
 		B6E897071C8EB16D000ED5AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E897051C8EB16D000ED5AE /* LaunchScreen.storyboard */; };
 		B6E897121C8EB16D000ED5AE /* PushPopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E897111C8EB16D000ED5AE /* PushPopTests.m */; };
 		B6E8971D1C8EB16D000ED5AE /* PushPopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E8971C1C8EB16D000ED5AE /* PushPopUITests.m */; };
+		B6E8972C1C8EB190000ED5AE /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E8972B1C8EB190000ED5AE /* DetailViewController.m */; };
+		B6E8972F1C8EB35C000ED5AE /* transitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E8972E1C8EB35C000ED5AE /* transitionAnimation.m */; };
+		B6E897321C8EB506000ED5AE /* IMG_0346.PNG in Resources */ = {isa = PBXBuildFile; fileRef = B6E897301C8EB506000ED5AE /* IMG_0346.PNG */; };
+		B6E897331C8EB506000ED5AE /* IMG_0347.PNG in Resources */ = {isa = PBXBuildFile; fileRef = B6E897311C8EB506000ED5AE /* IMG_0347.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,12 @@
 		B6E897181C8EB16D000ED5AE /* PushPopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushPopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E8971C1C8EB16D000ED5AE /* PushPopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushPopUITests.m; sourceTree = "<group>"; };
 		B6E8971E1C8EB16D000ED5AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6E8972A1C8EB190000ED5AE /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		B6E8972B1C8EB190000ED5AE /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		B6E8972D1C8EB35C000ED5AE /* transitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transitionAnimation.h; sourceTree = "<group>"; };
+		B6E8972E1C8EB35C000ED5AE /* transitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = transitionAnimation.m; sourceTree = "<group>"; };
+		B6E897301C8EB506000ED5AE /* IMG_0346.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0346.PNG; sourceTree = "<group>"; };
+		B6E897311C8EB506000ED5AE /* IMG_0347.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0347.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +111,16 @@
 		B6E896F61C8EB16D000ED5AE /* PushPop */ = {
 			isa = PBXGroup;
 			children = (
+				B6E897301C8EB506000ED5AE /* IMG_0346.PNG */,
+				B6E897311C8EB506000ED5AE /* IMG_0347.PNG */,
 				B6E896FA1C8EB16D000ED5AE /* AppDelegate.h */,
 				B6E896FB1C8EB16D000ED5AE /* AppDelegate.m */,
 				B6E896FD1C8EB16D000ED5AE /* ViewController.h */,
 				B6E896FE1C8EB16D000ED5AE /* ViewController.m */,
+				B6E8972A1C8EB190000ED5AE /* DetailViewController.h */,
+				B6E8972B1C8EB190000ED5AE /* DetailViewController.m */,
+				B6E8972D1C8EB35C000ED5AE /* transitionAnimation.h */,
+				B6E8972E1C8EB35C000ED5AE /* transitionAnimation.m */,
 				B6E897001C8EB16D000ED5AE /* Main.storyboard */,
 				B6E897031C8EB16D000ED5AE /* Assets.xcassets */,
 				B6E897051C8EB16D000ED5AE /* LaunchScreen.storyboard */,
@@ -246,8 +262,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6E897321C8EB506000ED5AE /* IMG_0346.PNG in Resources */,
 				B6E897071C8EB16D000ED5AE /* LaunchScreen.storyboard in Resources */,
 				B6E897041C8EB16D000ED5AE /* Assets.xcassets in Resources */,
+				B6E897331C8EB506000ED5AE /* IMG_0347.PNG in Resources */,
 				B6E897021C8EB16D000ED5AE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +294,8 @@
 				B6E896FF1C8EB16D000ED5AE /* ViewController.m in Sources */,
 				B6E896FC1C8EB16D000ED5AE /* AppDelegate.m in Sources */,
 				B6E896F91C8EB16D000ED5AE /* main.m in Sources */,
+				B6E8972F1C8EB35C000ED5AE /* transitionAnimation.m in Sources */,
+				B6E8972C1C8EB190000ED5AE /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +521,7 @@
 				B6E897231C8EB16D000ED5AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6E897241C8EB16D000ED5AE /* Build configuration list for PBXNativeTarget "PushPopTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +530,7 @@
 				B6E897261C8EB16D000ED5AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6E897271C8EB16D000ED5AE /* Build configuration list for PBXNativeTarget "PushPopUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +539,7 @@
 				B6E897291C8EB16D000ED5AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
