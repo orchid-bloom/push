@@ -25,6 +25,7 @@
     imageView.frame = CGRectMake(20, 20, self.view.frame.size.width - 40, self.view.frame.size.height - 40);;
     [self.view addSubview:imageView];
     self.imgView = imageView;
+    
 }
 
 #pragma mark - UINavigationControllerDelegate
